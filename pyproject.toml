@@ -13,6 +13,7 @@ dependencies = [
 
 [project.scripts]
 modbus-mcp = "modbus_mcp.cli:app"
+modbus-mcp-stdio = "modbus_mcp.windows_stdio_entry:main"
 
 [build-system]
 requires = ["hatchling"]
